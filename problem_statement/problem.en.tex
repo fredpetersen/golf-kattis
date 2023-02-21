@@ -1,0 +1,13 @@
+\problemname{Golf}
+
+\illustration{.33}{img/cat-golf.png}{Midjourney: An oil painting of an orange cat playing golf with her cat-buddies}
+
+\noindent You and your \textit{N} programmer-buddies are playing a game of golf between projects. The game consist of \textit{M} holes, and each of you has been tasked with writing down your own score for each hole.
+\\By the end of the game you disagree on who won, and you decide to settle the dispute by writing a program that will determine the winner.
+
+\section*{Input}
+First line consisting of two integers \textit{N} ($2 \leq N \leq 100$), the number of players, and \textit{M} ($1 \leq M \leq 500$), the number of holes.
+\\\textit{N} lines follow, consisting of \textit{M} signed integers. The \textit{i}th integer ($0 \leq i < M$) on the \textit{j}th line ($1 \leq j \leq N$) is the score of the \textit{j}th player on the \textit{i}th hole ($ -100 < j_{i} < 100$).
+
+\section*{Output}
+Output the number of the player, with the lowest score, and therefore won the game. If there is a tie, output the player with the lowest index.
