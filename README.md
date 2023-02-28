@@ -21,3 +21,11 @@ To generate problem description pdf, run:
 ```bash
   problem2pdf golf
 ```
+
+## Verifying the problem
+
+Lastly, to verify the problem, run:
+
+```bash
+  verifyproblem golf
+```
